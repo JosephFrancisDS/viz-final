@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Airlines Flight Delay </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- D3 tip CSS -->
+    <link rel="stylesheet" href="css/d3-tip.css">
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top10.css">
+	
+    <script type = "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type = "text/javascript"></script> 
+</head>
+
+<body>
+      <div id="header">
+         <div id="logo">
+            <div id="logo_text">
+             <h1>Top 10 Airports</br>and Top 10 Carriers </h1>
+            </div> <!-- logo_text -->
+         </div><!-- logo -->
+         <div id="menubar">
+            <ul id="menu">
+			   <li><a href="index.html">Home</a></li>
+               <li><a href="Different Delays.html">Delay</a></li>
+               <li><a href="Airportwise Delay.html">Airport Delay</a></li>
+               <li><a href="Airlinewise Delay.html">Airlines Delay</a></li>
+			   <li class="selected"><a href="top10.html">Top10</a></li>
+            </ul><!-- menu -->
+         </div><!-- menubar -->
+      </div><!-- header -->
+
+    </p>&nbsp;</p>
+
+     <!-- Bootstrap grid setup -->
+     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <div id="content">
+                  <h3>Flight Delay with top 10 Airports and top 10 Carriers in USA</h3>
+				  <p style="color:black;">
+					 In the last dashboard, we only take the top 10 airports and top 10 carriers based on the delay.We see that 
+					 the results change a bit. Now when we plot all the 10 airports on the map and plot the corresponding airlines 
+					 which got most delayed(within top 10 overall), we see that Southwest moves back to the 4th position and now 
+					 ExpressJet Airlines take the top position. This means the most delay of Southwest is not from the most delayed 
+					 airports but rather spreaded over all the airports. When we click southwest in the bottom plot, we see among 
+					 the top 10 airports, the top 3 airports causing the delay are Chicago, Denver and Los Angeles.
+                  </p>
+				  </p>
+				  </p>
+				  <p style="color:black;">
+				  Let us look at the last dashboard I created for top 10 airports delay in top 10 carriers in USA.
+				  <p><a href="https://us-east-1.online.tableau.com/#/site/josephtableauvisuals/views/FlightDelayVisulization/Dashboard4?:iid=4"><b>Tableau Dashboard 4 : Top 10 worst airports with top 10 carriers in USA</b></a></p>
+				  <img src="css\images\Viz_Dashboard_4.JPG" alt="Top 10 Airport with Top 10 Carriers" style="width:1000px;height:700px">
+				  </p>
+			   </div>
+            </div>
+        </div>
+        </p>
+    </div> <!-- close of container -->
+
+</body>
+</html>
